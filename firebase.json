@@ -1,0 +1,13 @@
+{
+  "apphosting": {
+    "backendId": "apphosting-nextjs-test",
+    "rootDir": "./",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "functions"
+    ]
+  }
+}
