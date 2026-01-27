@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Feature Tests - Firebase App Hosting",
+  title: "Next.js Feature Tests - Firebase App Hosting (woo)",
   description: "Test dashboard for Next.js features on Firebase App Hosting",
 };
 
