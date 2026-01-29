@@ -52,6 +52,7 @@ The app tests the following Next.js features for Firebase App Hosting compatibil
 | Static Generation (SSG) | `/tests/static-generation` | Ready |
 | Server-Side Rendering | `/tests/ssr` | Ready |
 | ISR (revalidate: 30s) | `/tests/isr` | Ready |
+| use cache (File-Level) | `/tests/use-cache` | Ready |
 | Streaming/Suspense | `/tests/streaming` | Ready |
 
 ### Infrastructure (Priority 3)
@@ -64,3 +65,4 @@ The app tests the following Next.js features for Firebase App Hosting compatibil
 - **Dev vs Production**: SSG, ISR, and caching behavior differs between `npm run dev` and production builds
 - **Middleware**: Next.js 16 shows deprecation warning for middleware in favor of "proxy", but it still functions
 - **ISR**: Revalidation set to 30 seconds; verify by checking timestamp changes in production
+- **use cache**: Requires `cacheComponents: true` in next.config.ts; default profile: 5 min client stale, 15 min server revalidation

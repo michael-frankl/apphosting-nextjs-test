@@ -77,6 +77,13 @@ const featureTests: FeatureTest[] = [
     category: "rendering",
   },
   {
+    title: "use cache (File-Level)",
+    description: "'use cache' directive for component caching",
+    href: "/tests/use-cache",
+    status: "pass",
+    category: "rendering",
+  },
+  {
     title: "Streaming / Suspense",
     description: "React Suspense with progressive loading",
     href: "/tests/streaming",
